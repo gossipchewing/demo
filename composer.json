@@ -2,5 +2,7 @@
   "name": "lxpursue/demo",
   "description": "composer demo",
   "license": "MIT",
-  "require": "^1.0."
+  "require": {
+    "monolog/monolog": "^1.0."
+  }
 }
