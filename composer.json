@@ -1,5 +1,6 @@
 {
   "name": "lxpursue/demo",
   "description": "composer demo",
-  "license": "MIT"
+  "license": "MIT",
+  "require": "^1.0."
 }
