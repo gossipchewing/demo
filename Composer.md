@@ -23,11 +23,11 @@
 
 Introduction
 ============
-Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
+Composer 是一个 PHP 的依赖管理工具。你可以通过声明项目的依赖，然后，就可以用 Composer 进行管理了。
 
 System Requirements
 -------------------
-Composer requires PHP 5.3.2+ to run.
+PHP 5.3.2+.
 
 Basic Usage
 -----------
@@ -355,6 +355,6 @@ aeb96d3 (HEAD -> master, tag: v1.1.1) master xxx3
 
 [https://semver.mwl.be/#?package=monolog%2Fmonolog&version=~1&minimum-stability=dev](https://semver.mwl.be/#?package=monolog%2Fmonolog&version=~1&minimum-stability=dev)
 
-`minimum-stability` 配置项定义了包在选择版本时对稳定性的选择的默认行为。默认是`stable`。它的值如下（按照稳定性升序排序）：`dev`，`alpha`，`beta`，`RC` 和 `stable` 。除了修改这个配置去修改这个默认行为，我们还可以通过稳定性标识（例如 `@stable` 和 `@dev` ）来安装一个相比于默认配置不同稳定性的版本。
+`minimum-stability` 配置项定义了包在选择版本时对稳定性的选择的默认行为。默认是`stable`。它的值如下（按照稳定性升序排序）：`dev`，`alpha`，`beta`，`RC` 和 `stable` 。除了修改这个配置去修改这个默认行为，我们还可以通过稳定性标识（例如 `@stable` 和 `@dev` ）来安装一个相比于默认配置不同稳定性的版本。 
 
 reference: [https://getcomposer.org/doc/](https://getcomposer.org/doc/)
