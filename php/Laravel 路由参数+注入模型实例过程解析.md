@@ -13,10 +13,10 @@ class App\Models\ProductSku extends Illuminate\Database\Eloquent\Model {}
 
 class CartController extends Controller 
 {
- 		public function delete(ProductSku $sku)
-	    {
+ 	public function delete(ProductSku $sku)
+	{
 	        var_dump($sku->id);
-	    }	
+	}	
 }
 ```
 
@@ -95,9 +95,9 @@ class Illuminate\Routing\ImplicitRouteBinding
 // 我们自己的 Model 一般都是实现了下面的抽象类的。
 abstract class Illuminate\Database\Eloquent\Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializable, QueueableEntity, UrlRoutable
 {
-	// ......
+    // ......
 	
-	/**
+    /**
      * Retrieve the model for a bound value.
      *
      * @param  mixed  $value
@@ -108,7 +108,7 @@ abstract class Illuminate\Database\Eloquent\Model implements ArrayAccess, Arraya
         return $this->where($this->getRouteKeyName(), $value)->first();
     }
 
-	/**
+    /**
      * Get the route key for the model.
      *
      * @return string
